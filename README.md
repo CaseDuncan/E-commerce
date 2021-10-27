@@ -1,2 +1,2 @@
 # E-commerce
-##Used HTML/CSS/JavaScript
+##Used HTML/CSS/Bootsrap4
