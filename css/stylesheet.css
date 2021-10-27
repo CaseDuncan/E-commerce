@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+nav{
+    height: 100px;
+    margin-bottom: 50px;
+    
+}
+.myNav{
+    background-color: rgba(0, 0, 0, 0.70) !important;  
+}
+.myNav .nav-link{
+    color: #fff;
+    font-size: 18px;
+    text-transform: capitalize;
+    align-items: center;
+}
+.myNav .nav-link:hover{
+    color: deeppink;
+}
+
+.navbar-toggler{
+    outline: none !important;
+}
+.bg-black{
+    background: #000;
+}
+.title{
+    text-align: right;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 6px;
+    color: #555;
+    text-shadow: 2px 2px 5px red;
+    
+}
+.title::after{
+    content: '';
+    background: #ff523b;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.slide-btn{
+    display: inline-block;
+    vertical-align: middle;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.8);
+}
+.common-btn{
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+}
+.top-heading p{
+    width: 100%;
+    text-align: center;
+    color: #787878;
+    font-size: 70px;
+    text-transform: capitalize;
+
+}
+.card1,.card2,.card3{
+    text-align: center;
+    border: none;
+    align-items: center;
+    border-radius: 0px 30px 0px 30px;
+    box-shadow: -webkit-box-shadow  -19px 19px 43px 0px rgba(0, 0, 0, 0.61);
+    -moz-box-shadow: -19px 19px 43px 0px rgba(0, 0, 0, 0.61);
+    box-shadow: -19px 19px 43px 0px rgba(0, 0, 0, 0.61);
+}
+.card .card-title{
+    font-weight: bold;
+    font-size: 25px;
+    color: dimgray;
+}
+.card .text{
+    color: #737373;
+    font-weight: 600;
+}
+.center-div {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#carousel {
+    width: 100%;
+    padding: 0;
+    margin-top: 50px;
+}
+
+.outer-div {
+    width: 100%;
+}
+
+/*contact*/
+#contact{
+    background: #efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #777;
+}
+.contact-form{
+    padding: 15px;
+}
+.form-control{
+    border-radius: 0 !important;
+    border: none !important;
+}
+::placeholder{
+    color: #999;
+}
+
+.follow{
+    background: #fff;
+    padding: 10px;
+    margin: 15px;
+}
+.contact-info .fa{
+    margin: 10px;
+    color: #007bff;
+    font-weight: bold;
+}
+/*footer*/
+#footer{
+    background: #333;
+    color: #fff;
+    padding: 12px;
+}
